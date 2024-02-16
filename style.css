@@ -68,7 +68,7 @@ body{
 	transform:translateY(-50%);
 	box-shadow: -4px 0px 5px #00000036;
 	color: #fff;
-	z-index: 9999;
+	z-index: 998;
 	padding:20px 30px 30px 30px;
 	-webkit-transition:all 0.4s ease;
 	-moz-transition:all 0.4s ease;
@@ -145,7 +145,7 @@ body{
 .color-plate {
 	position: fixed;
 	display: block;
-	z-index: 99998;
+	z-index: 998;
 	padding: 20px;
 	width: 245px;
 	background: #fff;
@@ -298,7 +298,7 @@ body{
 }
 .header .header-inner {
 	background:#fff;
-	z-index:999;
+	z-index:998;
 	width:100%;
 }
 .get-quote{
@@ -435,7 +435,7 @@ body{
 	position: absolute;
 	left:-20px;
 	top: 100%;
-	z-index: 999;
+	z-index: 998;
 	-webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 3px 5px #3333334d;
@@ -522,7 +522,7 @@ body{
 .header .search-form {
 	position: absolute;
 	right: 0;
-	z-index: 9999;
+	z-index: 998;
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: all 0.4s ease;
@@ -572,7 +572,7 @@ body{
 /* Header Sticky */
 .header.sticky .header-inner{
 	position:fixed;
-	z-index:999;
+	z-index:998;
 	top:0;
 	left:0;
 	bottom:initial;
