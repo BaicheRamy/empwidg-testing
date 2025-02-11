@@ -42,24 +42,18 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/responsive.css">
 		
-  <script type="text/JavaScript">
-  ((function(){
-  var loadWidget = function(){
-  var script = "https://widget-service.emplorium.io/acc-7812f/init.js"
-  var x = document.createElement('script');
-  var sx = document.getElementsByTagName('script')[0];
-  x.src = script; x.async = true;
-  sx.parentNode.insertBefore(x,sx)
-  }
-  if(document.readyState==="complete"){
-  loadWidget();
-  } else if (window.addEventListener){
-  window.addEventListener('load',loadWidget,false)
-  } else if (window.attachEvent) {
-  window.attachEvent("onload",loadWidget)
-  }
-  })())
-  </script>
+  <<script>
+  window.intercomSettings = {
+    api_base: "https://api-iam.intercom.io",
+    app_id: "w0fvw563",
+  };
+</script>
+
+
+<script>
+  // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/w0fvw563'
+  (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/w0fvw563';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
 		
     </head>
     <body>
